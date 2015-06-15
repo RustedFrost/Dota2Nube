@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entiti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dota2Nube", "Dota2Nube\Dota2Nube.csproj", "{5F1FB09A-9139-4D4C-8D41-EEFAD3F46DF0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mvc", "Mvc", "{4F26CD10-A2C9-4436-9794-846C52FE52CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F1FB09A-9139-4D4C-8D41-EEFAD3F46DF0} = {4F26CD10-A2C9-4436-9794-846C52FE52CE}
 	EndGlobalSection
 EndGlobal
